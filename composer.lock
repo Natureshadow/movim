@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5851f8eaed27d6a48476431b89b6986b",
+    "content-hash": "a24347fdde8d922550497ad6b82993b4",
     "packages": [
         {
             "name": "cakephp/cache",
@@ -3442,24 +3442,27 @@
         {
             "name": "znerol/php-stringprep",
             "version": "dev-master",
-            "target-dir": "Znerol/Component/Stringprep",
             "source": {
                 "type": "git",
-                "url": "https://github.com/znerol/Stringprep.git",
-                "reference": "fe3f274cb0a862e7e511a7f2033301a06cbfb4f1"
+                "url": "https://github.com/Teckids/Stringprep.git",
+                "reference": "cd5084ed7469619559874380085a5df79bcec7d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/znerol/Stringprep/zipball/fe3f274cb0a862e7e511a7f2033301a06cbfb4f1",
-                "reference": "fe3f274cb0a862e7e511a7f2033301a06cbfb4f1",
+                "url": "https://api.github.com/repos/Teckids/Stringprep/zipball/cd5084ed7469619559874380085a5df79bcec7d3",
+                "reference": "cd5084ed7469619559874380085a5df79bcec7d3",
                 "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "ext-intl": "*"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
+                "psr-4": {
                     "Znerol\\Component\\Stringprep\\": ""
                 }
             },
@@ -3471,10 +3474,9 @@
             ],
             "description": "Implementation of RFC 3454 Preparation of Internationalized Strings (\"stringprep\")",
             "support": {
-                "source": "https://github.com/znerol/Stringprep/tree/master",
-                "issues": "https://github.com/znerol/Stringprep/issues"
+                "source": "https://github.com/Teckids/Stringprep/tree/master"
             },
-            "time": "2015-06-18T14:59:16+00:00"
+            "time": "2019-05-22T15:32:15+00:00"
         }
     ],
     "packages-dev": [],
