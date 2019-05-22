@@ -47,7 +47,8 @@
         "react/http": "^0.8.4",
         "react/dns": "^0.4.17",
         "monolog/monolog": "^1.24",
-        "ratchet/pawl": "^0.3.4"
+        "ratchet/pawl": "^0.3.4",
+        "znerol/php-stringprep": "dev-master"
     },
     "config": {
         "platform": {
