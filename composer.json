@@ -10,6 +10,12 @@
             "Moxl\\": "lib/moxl/src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/znerol/Stringprep"
+        }
+    ],
     "require": {
         "php": ">=7.0.0",
         "ext-curl": "*",
